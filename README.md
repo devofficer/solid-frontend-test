@@ -18,6 +18,9 @@ As you might be more comfortable with different stack then it is okay to use:
 - JS instead of TS
 - CSS, styled-components etc instead of SCSS
 
+The Smart Contract you need to interact with is deployed at 0x00aBe16886439cEbA14d258326e814eA3790007f on Rinkeby network. The solidity source of it is at contracts/token.sol  
+And the Ethereum wallet we will test the connection is Metamask.
+
 Have fun and godspeed!
 
 ## Available Scripts
