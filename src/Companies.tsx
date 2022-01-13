@@ -11,11 +11,12 @@ type ReduxProps = {
 }
 
 export const Companies = ({ companies }: ReduxProps) => (
-  <>
-    <div>Your companies</div>
-
-    {companies.map((company) => <CompanyLink key={company.id} {...company} />)}
-  </>
+  <div className="nav__company-group">
+    <div className="company-header">Your companies</div>
+    <div className="company-body">
+      {companies.map((company) => <CompanyLink key={company.id} {...company} />)}
+    </div>
+  </div>
 )
 
 export default connect(

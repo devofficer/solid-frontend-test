@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CompanyLink /> renders link 1`] = `
-<div>
-  Dummy company
+<div
+  className="nav__dropdown-menu-item company-item"
+>
+  <span>
+    Dummy company
+  </span>
 </div>
 `;

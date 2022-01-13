@@ -1,19 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Companies /> renders list of company links 1`] = `
-<Fragment>
-  <div>
+<div
+  className="nav__company-group"
+>
+  <div
+    className="company-header"
+  >
     Your companies
   </div>
-  <CompanyLink
-    id={1}
-    key="1"
-    name="Dummy company"
-  />
-  <CompanyLink
-    id={2}
-    key="2"
-    name="Smarty company"
-  />
-</Fragment>
+  <div
+    className="company-body"
+  >
+    <CompanyLink
+      id={1}
+      key="1"
+      name="Dummy company"
+    />
+    <CompanyLink
+      id={2}
+      key="2"
+      name="Smarty company"
+    />
+  </div>
+</div>
 `;

@@ -4,8 +4,8 @@ type Props = {
 }
 
 const MenuLink = ({ icon, text }: Props) => (
-  <div>
-    <i className="material-icons">
+  <div className="nav__dropdown-menu-item">
+    <i className="material-icons-outlined">
       {icon}
     </i>
 
