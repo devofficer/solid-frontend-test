@@ -2,7 +2,7 @@
 
 exports[`<MenuLink /> renders link 1`] = `
 <div
-  className="nav__dropdown-menu-item"
+  className="nav__dropdown-menu-item "
 >
   <i
     className="material-icons-outlined"

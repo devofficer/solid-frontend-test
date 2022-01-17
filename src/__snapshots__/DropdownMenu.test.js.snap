@@ -33,6 +33,7 @@ exports[`<DropdownMenu /> renders menu 1`] = `
       text="Connect to Wallet"
     />
     <MenuLink
+      color="red"
       icon="exit_to_app"
       text="Log out"
     />

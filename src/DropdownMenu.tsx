@@ -36,6 +36,7 @@ const DropdownMenu = () => (
       <MenuLink
         text="Log out"
         icon="exit_to_app"
+        color="red"
       />
     </div>
   </div>

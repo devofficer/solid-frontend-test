@@ -1,10 +1,11 @@
 type Props = {
   text: string,
   icon: string,
+  color?: string,
 }
 
-const MenuLink = ({ icon, text }: Props) => (
-  <div className="nav__dropdown-menu-item">
+const MenuLink = ({ icon, text, color = '' }: Props) => (
+  <div className={`nav__dropdown-menu-item ${color}`}>
     <i className="material-icons-outlined">
       {icon}
     </i>
