@@ -1,11 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CompanyLink /> renders link 1`] = `
+exports[`<CompanyLink /> renders link with selected state 1`] = `
 <div
-  className="nav__dropdown-menu-item company-item"
+  className="nav__dropdown-menu-item company-item selected"
+  onClick={[Function]}
 >
   <span>
-    Dummy company
+    company
   </span>
+  <i
+    className="material-icons"
+  >
+    check
+  </i>
 </div>
 `;

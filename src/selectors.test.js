@@ -2,6 +2,7 @@ import {
   getIsDropdownMenuVisible,
   isCompanySelected,
   getCompanies,
+  getSelectedCompanyId,
 } from './selectors'
 
 describe('getIsDropdownMenuVisible()', () => {
@@ -16,11 +17,11 @@ describe('isCompanySelected()', () => {
   const state = { selectedCompanyId: 1 }
 
   it('returns true when given company id matches selectedCompanyId', () => {
-    expect(isCompanySelected(state, { company: { id: 1 } })).toBe(true)
+    expect(isCompanySelected(state, { id: 1 })).toBe(true)
   })
 
   it('returns false when given company id differs from selectedCompanyId', () => {
-    expect(isCompanySelected(state, { company: { id: 2 } })).toBe(false)
+    expect(isCompanySelected(state, { id: 2 })).toBe(false)
   })
 })
 
@@ -30,4 +31,12 @@ describe('getCompanies()', () => {
   it('returns value from state', () => {
     expect(getCompanies(state)).toEqual([{ id: 1, name: 'Dummy company' }])
   })
+})
+
+describe('getSelectedCompanyId()', () => {
+    const state = { selectedCompanyId: 1 };
+
+    it('returns value from state', () => {
+      expect(getSelectedCompanyId(state)).toEqual(1);
+    })
 })

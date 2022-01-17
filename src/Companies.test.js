@@ -1,6 +1,8 @@
 import { shallow } from 'enzyme'
 import { Companies } from './Companies'
 
+jest.mock('./CompanyLink', () => 'CompanyLink');
+
 describe('<Companies />', () => {
   const companies = [
     { id: 1, name: 'Dummy company' },

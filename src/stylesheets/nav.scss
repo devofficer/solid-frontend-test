@@ -79,6 +79,23 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__dropdown-menu-item.company-item>i {
+  font-size: 20px;
+}
+
+.nav__dropdown-menu-item.company-item.selected {
+  color: #157123;
+  background: rgba(55, 164, 71, 0.1);
+}
+
+.nav__dropdown-menu-item.company-item.selected:hover {
+  color: #157123;
+  background: rgba(55, 164, 71, 0.2);
 }
 
 .nav__dropdown-menu-item {
@@ -93,5 +110,9 @@
 }
 
 .nav__dropdown-menu-item:hover {
+  background: #F4F6F9;
+}
+
+.nav__dropdown-menu-item:active {
   background: #EBEBF3;
 }
