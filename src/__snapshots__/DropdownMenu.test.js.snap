@@ -10,14 +10,17 @@ exports[`<DropdownMenu /> renders menu 1`] = `
   >
     <MenuLink
       icon="phone_iphone"
+      path="#"
       text="Get the mobile app"
     />
     <MenuLink
       icon="people"
+      path="#"
       text="Community"
     />
     <MenuLink
       icon="book"
+      path="#"
       text="Knowledge base"
     />
   </div>
@@ -26,15 +29,18 @@ exports[`<DropdownMenu /> renders menu 1`] = `
   >
     <MenuLink
       icon="settings"
+      path="#"
       text="Settings"
     />
     <MenuLink
       icon="account_balance_wallet"
+      path="/connect-with-metamask"
       text="Connect to Wallet"
     />
     <MenuLink
       color="red"
       icon="exit_to_app"
+      path="#"
       text="Log out"
     />
   </div>

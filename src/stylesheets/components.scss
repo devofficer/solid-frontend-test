@@ -1,0 +1,22 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  background-color: $green;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: $light-green;
+}
+
+.btn:active {
+  background-color: $dark-green;
+}

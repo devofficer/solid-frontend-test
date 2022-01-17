@@ -9,16 +9,19 @@ const DropdownMenu = () => (
       <MenuLink
         text="Get the mobile app"
         icon="phone_iphone"
+        path="#"
       />
 
       <MenuLink
         text="Community"
         icon="people"
+        path="#"
       />
 
       <MenuLink
         text="Knowledge base"
         icon="book"
+        path="#"
       />
     </div>
 
@@ -26,17 +29,20 @@ const DropdownMenu = () => (
       <MenuLink
         text="Settings"
         icon="settings"
+        path="#"
       />
       
       <MenuLink
         text="Connect to Wallet"
         icon="account_balance_wallet"
+        path="/connect-with-metamask"
       />
 
       <MenuLink
         text="Log out"
         icon="exit_to_app"
         color="red"
+        path="#"
       />
     </div>
   </div>
