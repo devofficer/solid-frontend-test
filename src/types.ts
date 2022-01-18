@@ -19,5 +19,6 @@ declare global {
   interface Window { 
     ethereum: any; 
     provider: any;
+    tokenContract: any;
   }
 }
